@@ -11,6 +11,15 @@ public static void main(string[]args){
 	//method 3
 	students[0].section = 'A';
 
+	//method 4
+        students[1] = new Student();
+        students[1].name = "Lester";
+         //method 5
+        students[1].marks = 83;
+         //method 6
+        students[1].section = 'B';
+
+
 
 
 for (int a = 0; a < students.length; i++){
@@ -23,3 +32,4 @@ class Student{
 	int marks;
 	char section;
 }
+ 
